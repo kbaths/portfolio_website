@@ -6,9 +6,33 @@ import { DiCssdeck } from 'react-icons/di';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () =>  (
-  <div>
-    Header
-  </div>
+  <Container>
+    <Div1>
+      <Link href="/">
+        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
+          <DiCssdeck size="3em" /> <span>Portifolio</span>
+        </a>
+      </Link>
+    </Div1>
+
+    <Div2>
+      <li>
+        <Link href="#projects">
+          <NavLink>Projetos</NavLink>
+        </Link>  
+      </li>
+      <li>
+        <Link href="#tech">
+          <NavLink>Tecnologias</NavLink>
+        </Link>  
+      </li> 
+      <li>
+        <Link href="#about">
+          <NavLink>Sobre Mim</NavLink>
+        </Link>  
+      </li> 
+    </Div2>
+  </Container>
 );
 
 export default Header;
