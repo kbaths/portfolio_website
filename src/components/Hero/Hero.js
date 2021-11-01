@@ -17,7 +17,7 @@ const Hero = (props) => (
       projetos ao decorrer da minha carreira.<br/>
       "A persistência é o caminho do êxito." Charles Chaplin
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Entre em contato</Button>
+      <Button onClick={() => window.location = '#footer'}>Entre em contato</Button>
     </LeftSection>
   </Section>
 );
