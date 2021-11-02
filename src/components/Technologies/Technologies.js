@@ -8,41 +8,47 @@ const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider/>
     <br/>
-    <SectionTitle>Tecnologias</SectionTitle>
+    <SectionTitle>Conhecimentos</SectionTitle>
     <SectionText>
-      Já trabalhei com uma variedade de tecnologia no mundo do desenvolvimento, 
-      do back ao front-end.
+    Iniciei como Desenvolvedor Back-end em 2016, sair da área no final de 2017 
+    e voltei em 2019 e em 2021 decidir aprender Front-end, tanto a parte web, 
+    quanto a parte mobile. Vejo que estou no caminho certo, pois, 
+    percebo os resultados em meus serviços desenvolvidos.
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiência com <br/>
-            React.js            
+            CSS, Html, Javascript, <br />
+            React.js       
           </ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <DiFirebase size="3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experiência com <br/>
             NodeJs e Banco de Dados            
           </ListParagraph>
         </ListContainer>
       </ListItem>
 
       <ListItem>
-        <AiOutlineAndroid size="2.5rem" />
         <ListContainer>
           <ListTitle>Mobile</ListTitle>
           <ListParagraph>
-            Experiência com <br/>
             React Native           
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <ListContainer>
+          <ListTitle>Adquirindo Conhecimentos</ListTitle>
+          <ListParagraph>
+            TypeScript, NextJs, Docker, Microsserviços            
           </ListParagraph>
         </ListContainer>
       </ListItem>
