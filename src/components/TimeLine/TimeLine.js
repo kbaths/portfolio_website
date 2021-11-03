@@ -44,11 +44,12 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>Quem Sou Eu</SectionTitle>
+      <SectionTitle>Quem Sou.</SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established 
-        developers to take their development skills to the next level and build 
-        awesome apps.
+      Meu nome é Julio Anderson, ou "Kbath" (é como me chamam agora).
+      Sou freelancer como desenvolvedor Front-end e Back-end.
+      Atualmente estou estudando em uma universidade e também tenho
+      estudado bastante sozinho para aprender novas tecnologias.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
