@@ -1,23 +1,26 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiTwotoneMail } from 'react-icons/ai';
-
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, 
+        LinkItem, LinkList, LinkTitle, LinkTitles, Slogan, SocialContainer, 
+        SocialIconsContainer, Imags } from './FooterStyles';
 
 const Footer = () => {
   return (
     <FooterWrapper id="footer">
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+          <LinkTitle>Vamos Conversar</LinkTitle>
+          <LinkItem href="https://api.whatsapp.com/send?phone=5571981916470&text=" target="_blank">
+             Whatsapp
+          </LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>            
-            Email 
-          </LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com"> 
-             contact@jsmastery.com
+          <LinkTitles >            
+            Email
+          </LinkTitles>
+          <LinkItem href="mailto:kbath.dev@gmail.com" target="_blank"> 
+           Me Envie Um Email 
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -27,13 +30,13 @@ const Footer = () => {
         mensagem.</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://github.com/kbaths"  target="_blank">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.linkedin.com/in/julio-anderson-6070201a0/" target="_blank">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.instagram.com/_kbath/" target="_blank">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
