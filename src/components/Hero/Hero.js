@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle, SectionDivider  } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
@@ -18,7 +18,10 @@ const Hero = (props) => (
       "A persistência é o caminho do êxito." Charles Chaplin
       </SectionText>
       <Button onClick={() => window.location = '#footer'}>Entre em contato</Button>
+      
+    <SectionDivider />
     </LeftSection>
+
   </Section>
 );
 

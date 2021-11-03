@@ -13,10 +13,10 @@ const Home = () => {
       <Section grid>
         <Hero />
           <BgAnimation />
-          </Section>
-      <Projects />
-      <Technologies />
+      </Section>
       <Timeline />
+      <Technologies />
+      <Projects />
     </Layout>
   );
 };
