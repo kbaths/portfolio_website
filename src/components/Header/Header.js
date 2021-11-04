@@ -28,18 +28,18 @@ const Header = () =>  (
       </li> 
       <li>
         <Link href="#about">
-          <NavLink>Sobre Mim</NavLink>
+          <NavLink>Quem Sou</NavLink>
         </Link>  
       </li> 
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com'> 
+      <SocialIcons href="https://github.com/kbaths"  target="_blank"> 
         <AiFillGithub size="3rem"/>
       </SocialIcons>
-      <SocialIcons href='https://linkedin.com'> 
+      <SocialIcons href="https://www.linkedin.com/in/julio-anderson-6070201a0/" target="_blank"> 
         <AiFillLinkedin size="3rem"/>
       </SocialIcons>
-      <SocialIcons href='https://instagram.com'> 
+      <SocialIcons href="https://www.instagram.com/_kbath/" target="_blank"> 
         <AiFillInstagram size="3rem"/>
       </SocialIcons>
     </Div3>

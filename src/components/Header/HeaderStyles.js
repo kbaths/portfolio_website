@@ -33,10 +33,11 @@ export const Div1 = styled.div`
 `;
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
-  display: flex;
-  justify-content: space-around;
+  display: flexbox;
+  justify-content: space-between;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
+    justify-content: center;
   }
 `;
 export const Div3 = styled.div`
@@ -63,6 +64,7 @@ export const NavLink = styled.a`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+    font-size: 15px;
   }
 `;
 
