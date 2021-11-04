@@ -12,8 +12,8 @@ display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
 place-items: center;
-column-gap: 2rem;
-row-gap: 3rem;
+column-gap: 10rem;
+row-gap: 5rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
@@ -99,7 +99,7 @@ background: #6b3030;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: #cb1e1e;
 
 }
 `;
@@ -113,3 +113,4 @@ export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
 `
+
