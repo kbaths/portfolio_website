@@ -15,7 +15,6 @@ const Hero = (props) => (
       <SectionText>
       Portfólio criado com o intuito de mostrar meus 
       projetos ao decorrer da minha carreira.<br/>
-      "A persistência é o caminho do êxito." Charles Chaplin
       </SectionText>
       <Button onClick={() => window.location = '#footer'}>Entre em contato</Button>
       

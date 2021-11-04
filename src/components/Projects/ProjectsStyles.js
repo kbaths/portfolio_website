@@ -18,7 +18,7 @@ row-gap: 5rem;
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  padding-bottom: 0;
+  padding-bottom: 1rem;
 }
 
 `
