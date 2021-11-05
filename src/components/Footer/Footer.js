@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, 
         LinkItem, LinkList, LinkTitle, LinkTitles, Slogan, SocialContainer, 
-        SocialIconsContainer, Imags } from './FooterStyles';
+        SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
           <LinkTitles >            
             Email
           </LinkTitles>
-          <LinkItem href="mailto:kbath.dev@gmail.com" target="_blank"> 
+          <LinkItem href="mailto:julio@andersoncode.com" target="_blank"> 
            Me Envie Um Email 
           </LinkItem>
         </LinkColumn>
