@@ -44,4 +44,9 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
   </tr>
 </tab>
 <br>
-## Esse projeto foi desenvolvido com muito carinho 🖤 
+<br>
+
+<td align="center">
+
+ ## Esse projeto foi desenvolvido com muito carinho 🖤 
+ </td>
