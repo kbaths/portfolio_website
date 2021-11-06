@@ -35,7 +35,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
   <tr>
     <td align="center">
       <a href="https://github.com/kbaths">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Julio Anderson no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/81596847?v=4" width="100px;" alt="Foto do Julio Anderson no GitHub"/><br>
         <sub>
           <b>Julio Anderson</b>
         </sub>
