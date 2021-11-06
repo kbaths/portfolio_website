@@ -37,9 +37,11 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
       <a href="https://github.com/kbaths">
         <img src="https://avatars.githubusercontent.com/u/81596847?v=4" width="100px;" alt="Foto do Julio Anderson no GitHub"/><br>
         <sub>
-          <b>Julio Anderson</b>
+          <b align="center">Julio Anderson</b>
         </sub>
       </a>
     </td>
   </tr>
 </tab
+
+Esse projeto foi desenvolvido com muito carinho 🖤 
